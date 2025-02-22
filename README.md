@@ -1,3 +1,5 @@
+
+
 # Automated Waste Detection with YOLOv5 🚮🔍
 
 ![YOLOv5](https://img.shields.io/badge/YOLOv5-Object%20Detection-brightgreen)
@@ -78,7 +80,17 @@ python app_api.py
      ECR_REPOSITORY_NAME (waste_detection)
      ```
 
-2. **EC2 Instance**:
+2. **ECR Setup**:
+   ```bash
+   # Create ECR repository
+   aws ecr create-repository --repository-name waste_detection --region us-east-1
+   
+   # Get repository URI (save this)
+   aws ecr describe-repositories --repository-names waste_detection --query 'repositories[0].repositoryUri'
+   ```
+   
+
+3. **EC2 Instance**:
    - Ubuntu t2.xlarge (32GB+ storage)
    - Install Docker:
      ```bash
@@ -89,7 +101,7 @@ python app_api.py
      newgrp docker
      ```
 
-3. **Self-Hosted Runner**:
+4. **Self-Hosted Runner**:
    ```bash
    # Configure from GitHub Settings > Actions > Runners
    ./config.sh --url https://github.com/your-repo --token YOUR_TOKEN
