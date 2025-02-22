@@ -13,4 +13,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["python", "app_ui.py"]
+EXPOSE 8501
+
+# Start Streamlit with specific port and binding to all interfaces
+CMD ["streamlit", "run", "app_ui.py", "--server.port", "8501", "--server.address", "0.0.0.0"]
