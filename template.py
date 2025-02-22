@@ -28,7 +28,6 @@ list_of_files = [
     f'{project_name}/utils/main_utils.py',
     'weights/model_epoch.pt',
     'notes/train_model_gc.ipynb',
-    'templates/index.html',
     'app.py',
     'Dockerfile',
     'requirements.txt',

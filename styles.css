@@ -1,0 +1,85 @@
+/* Sidebar */
+[data-testid=stSidebar] {
+    background: #1E1E1E; /* Dark gray background */
+    color: white;
+}
+
+.sidebar .sidebar-content {
+    color: white;
+}
+
+.st-emotion-cache-4tlk2p p {
+    word-break: break-word;
+    margin: 0px;
+    color: white!important;
+}
+
+/* Main content */
+body {
+    background-color: #F5F5F5; /* Light gray background */
+    color: #1E1E1E; /* Dark gray text */
+}
+
+/* Titles and headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #1E1E1E; /* Dark gray for titles */
+}
+
+/* Buttons */
+.stButton>button {
+    background: #1E1E1E; /* Dark gray button */
+    color: white;
+    border-radius: 8px;
+    padding: 10px 24px;
+    transition: all 0.3s;
+    border: none;
+    font-weight: bold;
+}
+
+.stButton>button:hover {
+    background: #333333; /* Slightly lighter gray on hover */
+    transform: scale(1.05);
+}
+
+/* Input fields */
+.stFileUploader > div > div > div {
+    background: white;
+    border: 1px solid #CCCCCC; /* Gray border */
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Result boxes */
+.result-box {
+    border-radius: 10px;
+    padding: 20px;
+    background: white;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #CCCCCC;
+}
+
+/* Spinner */
+.stSpinner > div {
+    color: #1E1E1E;
+}
+
+/* Progress bar */
+.stProgress > div > div > div {
+    background: #1E1E1E;
+}
+
+/* Navigation */
+.css-1d391kg {
+    background: #1E1E1E;
+    color: white;
+}
+
+/* Text Color - Video Detection Page */
+.st-emotion-cache-1cvow4s p {
+    word-break: break-word;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
