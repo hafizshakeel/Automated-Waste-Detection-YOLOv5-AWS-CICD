@@ -1,0 +1,1 @@
+# Automated-Waste-Detection-YOLOv5-AWS-CICD
