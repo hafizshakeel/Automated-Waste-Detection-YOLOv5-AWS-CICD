@@ -72,9 +72,9 @@ python app_api.py
 ![Waste Detection Interface](data/Waste-detection-streamlitApp.png)
 *Streamlit interface showing paper waste detection with 70% confidence*
 
-<!--### Video Detection Demo
-[![Plastic Waste Detection](data/Waste-detection-streamlitApp.png)](data/Plastic_Waste_Detection.mp4)
-*(Click the image to watch video demonstration)* -->
+### Video Detection Preview
+[![Plastic Waste Detection](data/Video-detection.png)](data/Plastic_Waste_Detection.mp4)
+*(Click the image to watch video demonstration)*
 
 ## AWS CI/CD Pipeline ☁️
 
