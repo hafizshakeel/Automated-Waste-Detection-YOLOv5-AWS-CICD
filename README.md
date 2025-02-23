@@ -66,6 +66,16 @@ python app_api.py
 | ONNX Export               | `python yolov5/export.py --weights weights/best_100.pt --include onnx` |
 | TensorRT Conversion       | `trtexec --onnx=best_100.onnx --saveEngine=best_100.trt` |
 
+## Detection Results 🎯
+
+### Image Detection Preview
+![Waste Detection Interface](data/Waste-detection-streamlitApp.png)
+*Streamlit interface showing paper waste detection with 70% confidence*
+
+<!--### Video Detection Demo
+[![Plastic Waste Detection](data/Waste-detection-streamlitApp.png)](data/Plastic_Waste_Detection.mp4)
+*(Click the image to watch video demonstration)* -->
+
 ## AWS CI/CD Pipeline ☁️
 
 ### Infrastructure Setup
