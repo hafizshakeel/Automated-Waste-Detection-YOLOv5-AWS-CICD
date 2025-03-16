@@ -9,7 +9,7 @@
 
 An end-to-end solution for automated waste detection using YOLOv5, featuring model training pipelines, FastAPI inference, Streamlit interface, and AWS CI/CD deployment.
 
-![System Demo](data/Plastic-Waste-output.gif)
+![System Demo](data/plastic-waste-output.gif)
 
 
 ## Key Features ✨
