@@ -9,6 +9,9 @@
 
 An end-to-end solution for automated waste detection using YOLOv5, featuring model training pipelines, FastAPI inference, Streamlit interface, and AWS CI/CD deployment.
 
+![System Demo](data/Plastic-Waste-output.gif)
+
+
 ## Key Features ✨
 - Automated training pipeline (data ingestion → validation → training)
 - Dual interface options (Web UI + REST API)
@@ -66,15 +69,11 @@ python app_api.py
 | ONNX Export               | `python yolov5/export.py --weights weights/best_100.pt --include onnx` |
 | TensorRT Conversion       | `trtexec --onnx=best_100.onnx --saveEngine=best_100.trt` |
 
-## Detection Results 🎯
 
-### Image Detection Preview
-![Waste Detection Interface](data/Waste-detection-streamlitApp.png)
-*Streamlit interface showing paper waste detection with 70% confidence*
+## 🖥️ Interface Previews
 
-### Video Detection Preview
-[![Plastic Waste Detection](data/Video-detection.png)](data/Plastic_Waste_Detection.mp4)
-*(Click the image to watch video demonstration)*
+![Interface](data/waste_detection_ui.png)
+
 
 ## AWS CI/CD Pipeline ☁️
 
